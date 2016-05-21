@@ -6,7 +6,15 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #729f98;
+}
+
+h1{
+  color: #729f98;
+}
+
+p{
+  color: #729f98;
 }
 
 /* Custom default button */
@@ -78,8 +86,8 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #729f98; /* Modificacion de color para los botones */
+  
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,

@@ -1,12 +1,12 @@
 $(document).ready(function(){
-  $("#login").hide();
+  $("#form").hide();
   $("#btnLogin").click(function(){
-    $("#info").hide();
-    $("#login").show();
+    $("#texts").hide();
+    $("#form").show();
   });
   $("#home").click(function(){
-    $("#info").show();
-    $("#login").hide();
+    $("#texts").show();
+    $("#form").hide();
   });
 
 });
